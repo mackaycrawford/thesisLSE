@@ -1,0 +1,66 @@
+<!-- Begin common content. This should be replicated on all pages -->
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <title>LSE Project</title>
+    <script src="js/jquery.js"></script>
+    <script src="js/handsontable.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/underscore.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/handsontable.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Page Specific Javascript -->
+    <script src="js/wordCount.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">LSE Project</a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li><a href="wordCount.html">wordCount</a></li>
+              <li><a href="keywordSentiment.html">KeyWordSentiment</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="row">
+        <div class="col-xs-1"></div>
+        <div class="col-xs-10">
+          <div class="page-header">
+            <h1>Main Menu</h1>
+          </div>
+          <div class="col-xs-1"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-4"></div>
+        <div class="col-xs-4">
+          <div class="row">
+            <div class="panel panel-default">
+              <!-- Default panel contents -->
+              <div class="panel-heading">Main Menu</div>
+              <!-- List group -->
+              <ul class="list-group">
+                <li class="list-group-item"><a href="wordCount.html">Word Count</a></li>
+                <li class="list-group-item"><a href="keywordSentiment.html">KeyWord Sentiment</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-4"></div>
+      </div>
+    </div>
+  </body>
